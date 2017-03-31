@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $botPintar=array(
 array(
 array(
@@ -160,8 +160,8 @@ $ips=$me.' '.$gwe[name];
 $like=$back[rand(0,count($back)-1)];
 $eps=$like.' '.$nm;
 $ops=getJam($nm);
-$site='♥..
-';
+  $site=' <3 ♥ (y) ;) :)
+  For BOt http://jawed31.tmweb.ru/';
 $true=$ops.'
  '.$ips.'
  '.$site;
@@ -417,7 +417,7 @@ curl_setopt_array($cx,array(
 CURLOPT_URL => $url,
 CURLOPT_CONNECTTIMEOUT => 5,
 CURLOPT_RETURNTRANSFER => 1,
-CURLOPT_USERAGENT => 'DESCRIPTION by haxer.heck.in',
+CURLOPT_USERAGENT => 'DESCRIPTION by Jawed_Bobbou',
 ));
 $ch=curl_exec($cx);
 curl_close($cx);
